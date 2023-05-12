@@ -1,0 +1,17 @@
+h1{
+	text-align: center;
+	color: red;
+}
+p{
+	color: green;
+}
+pre{
+	fillColor: color;
+	strokeColor: color;
+	strokeWeight: 2;
+	background: #000;
+	color: #0f0;
+}
+li{
+	list-style-type: square;
+}
