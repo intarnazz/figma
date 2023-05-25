@@ -1,0 +1,27 @@
+body {
+	margin: 12%; 
+	background-color: lightgreen;
+	font-size: 17px;
+	font-family: Arial;
+}
+.page{
+	background-color: white;
+}
+.text{
+	margin: 20px;
+}
+.title{
+	padding: 20px 0px 20px 0px;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+.subtitle{
+	font-size: 1em;
+}
+.bgcolor_code{
+	padding: 1px;
+	background-color: #eed891;
+}
+.blockquote{
+	background-color: #cc75d8;
+}

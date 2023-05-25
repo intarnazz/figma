@@ -1,17 +1,17 @@
-h1{
+.title{
 	text-align: center;
 	color: red;
 }
-p{
+.text{
 	color: green;
 }
-pre{
+.section{
 	fillColor: color;
 	strokeColor: color;
 	strokeWeight: 2;
 	background: #000;
 	color: #0f0;
 }
-li{
+.item{
 	list-style-type: square;
 }
