@@ -1,11 +1,11 @@
 body {
 	margin: 12%; 
-	background-color: lightgreen;
+	background-color: #90ee90;
 	font-size: 17px;
 	font-family: Arial;
 }
 .page{
-	background-color: white;
+	background-color: #ffffff;
 }
 .text{
 	margin: 20px;
@@ -22,6 +22,64 @@ body {
 	padding: 1px;
 	background-color: #eed891;
 }
+
+/*p code{
+	padding: 1px;
+	background-color: #eed891;}*/
+
 .blockquote{
-	background-color: #cc75d8;
+	padding: 5px 5px 5px 30px;
+	background-color: #eaaff1;
+	border-left: 3px solid #7f008d;
+}
+pre{
+	padding: 1px;
+	background-color: #eed891;
+}
+
+h1{
+	text-transform: uppercase;
+}
+h2{
+	text-transform: uppercase;
+}
+h3{
+	text-transform: uppercase;
+}
+h4{
+	text-transform: uppercase;
+}
+h5{
+	text-transform: uppercase;
+}
+h6{
+	text-transform: uppercase;
+}
+dd{
+	margin-bottom: 50px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table, td, th{
+	border: 1px solid;
+	border-color: #7f008d;
+	padding: 10px;
+}
+
+th{
+	background-color: #facfff;
+}
+.disc{
+	list-style: disc;
+}
+
+.circle{
+	list-style: circle;
+}
+
+.square{
+	list-style: square;
 }
