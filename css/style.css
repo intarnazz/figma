@@ -94,18 +94,52 @@ a{
 	margin: auto;
 	border: 1px #333 solid;
 }
-.width100 table{ 
+.table2 table{ 
     width: 100%; 
     background-color: #496791; 
     color: #ffffff; 
 } 
-.width100 caption{ 
+.table2 caption{ 
     color: #008000; 
 }
-td{
-color: #fff;
-padding: 4px;
+.table3 td{
+	background-color: #ececec;
+	padding: 0.5rem;
 }
-table{
+.table4 table{
 	border-spacing: 4px;
+}
+.table4 td{
+	background-color: #4c715b;
+	padding: 4px;
+}
+.table5 table{
+	width: 80%;
+	margin: auto;
+	border: 2px #0075c9 solid;
+}
+.table6 table{
+	border-collapse: collapse;
+}
+.table6 td{
+	padding: 0.5rem;
+	border: 2px #00ad00 solid;
+}
+.table7 table{
+	border-collapse: collapse;
+	width: 100%;
+}
+.table7 td{
+	padding: 0.5rem;
+	border-top: 1px #850037 solid;
+	border-bottom: 1px #450085 solid;
+}
+.table8 table{
+	width: 90%;
+	margin: auto;
+}
+.table8 td{
+	padding: 0.5rem;
+	text-align: center;
+	border: 1px #000 solid;
 }
