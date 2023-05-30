@@ -1,9 +1,9 @@
 .title{
 	text-align: center;
-	color: red;
+	color: #ff0000;
 }
 .text{
-	color: green;
+	color: #00ad00;
 }
 .section{
 	fillColor: color;
@@ -14,4 +14,98 @@
 }
 .item{
 	list-style-type: square;
+}
+
+.warning{
+	background-color: #fff3d9;
+	padding: 10px;
+}
+.menu{
+	color: #00ad00;
+}
+.help{
+	background-color: #fff3d9;
+	padding: 10px;	
+}
+.image{
+	width: 128px;
+	border-radius: 50%;	
+	border: 3px #0075c9 solid;
+}
+.width100{
+	width: 13%;
+	height: auto;
+	vertical-align: middle;
+}
+.square{
+	list-style-type: square;
+}
+.none{
+	list-style-type: none;
+}
+.img{
+		list-style-image: url("book.png"); 
+}
+.upper-roman{
+	list-style-type: upper-roman;
+}
+.lower-greek{
+	list-style-type: lower-greek;
+}
+.padding_left{
+	padding: 0px 0px 0px 10px;
+}
+.color li{
+	color: #850037;
+}
+.padding{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+
+.dashed a{
+	border-bottom: dashed;
+	background: #005e6e;
+	color: #ffffff;
+}
+
+.double a{
+	border-bottom: double;
+	background: #00414d;
+	color: #ffffff;
+}
+.border a{
+	padding: 3px;
+	border: 1px #00414d solid;
+}
+.background table{
+	width: 100%;
+	background: #ffd6a1;
+}
+.background caption{
+	text-align: right;
+	font-style: italic;
+}
+.width80 table{
+	width: 80%;
+	margin: auto;
+	border: 1px #333 solid;
+}
+.width100 table{ 
+    width: 100%; 
+    background-color: #496791; 
+    color: #ffffff; 
+} 
+.width100 caption{ 
+    color: #008000; 
+}
+td{
+color: #fff;
+padding: 4px;
+}
+table{
+	border-spacing: 4px;
 }
