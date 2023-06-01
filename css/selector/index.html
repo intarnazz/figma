@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Дочерние селекторы
+    </h1>
+    <h1>
+        селектор потомка
+    
+    <code>
+        article h4 {
+            background: Grey;
+        }
+    </code>
+    </h1>
+    <h4>
+        Этот заголовок не будет выбран
+    </h4>
+    <article>
+        <h4>
+            этот заголовок будет выбран
+        </h4>
+        <div>
+            <h4>
+                этот заголовок будет выбран
+            </h4>
+        </div>
+    </article>
+    <h1>
+        селектор потомка
+        <pre>
+            .date {color: red;}
+            em.date {color: blue;}
+        </pre>
+    </h1>
+<p class="date">
+    21 февраля, суббота
+</p>
+<p>
+    Мероприяте произойдёт в <em class="date">субботу</em>
+</p>
+<h1>
+    селектор потомка
+    <pre>
+        .inner {color: blue;}
+        .parent .inner {
+            background: yellow;
+        }
+    </pre>
+</h1>
+
+<div class="parent">
+    parent - родитель
+    <div class="inner">
+        inner прямой потомок для parent
+    </div>
+    <div>
+        <p class="inner">
+        inner вложений потомок для parent
+        </p>
+    </div>
+</div>
+
+<div class="inner">
+    inner отдельно от parent
+</div>
+
+
+<h1>
+    прямой дочерний селектор
+    <code>
+        article > p {bckground: lightgreen;}
+    </code>
+</h1>
+
+<p>
+    абзац не будет выбран
+</p>
+<article>
+    <p>
+        абзац бдет выбран
+    </p>
+    <p>
+        абзац бдет выбран
+    </p>
+    <div>
+        <p>
+            абзац не будет выбран
+        </p>
+    </div>
+</article>
+
+
+<h1>
+    родственные селекторы
+</h1>
+<h1>
+    общий родственный селектор
+    <code>
+        h2 ~ p {backgroun: lightCoral;}
+    </code>
+</h1>
+
+<p>
+    этот абзац не будет выбран
+</p>
+<section>
+    <p>
+        этот абзац не будет выбран
+    </p>
+    <h2>
+        заголовок 2 уровня
+    </h2>
+    <p>
+        этот абзац будет выбран
+    </p>
+    <div>
+        <p>
+            этот абзац не будет выбран
+        </p>
+    </div>
+    <p>
+        этот абзац будет выбран
+    </p>
+</section>
+
+<h1>
+    соседние селекторы <code> h3 + p {background: Cyan;} </code>
+</h1>
+
+<p>
+    этот абзац не будет выбран
+</p>
+<section>
+    <p>
+        этот абзац не будет выбран
+    </p>
+    <h3>
+        заголовок 3 уровня
+    </h3>
+    <p>
+        этот абзац будет выбран
+    </p>
+    <div>
+        <p>
+        этот абзац не будет выбран
+        </p>
+    </div>
+    <p>
+        этот абзац не будет выбран
+    </p>
+</section>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.inner{
+    color: blue;
+}
+.parent .inner{
+    font-weight: bold;
+}
+article > p{
+    background: lightgreen;
+}
+.parent > .inner{
+    background: yellow;
+}
+h2 ~ p{
+    background: lightcoral;
+}
+h3 + p{
+    background: cyan;
+}
