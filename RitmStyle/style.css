@@ -1,9 +1,10 @@
 body{
     background-color: #162831;
     color: #ffffff;
+    line-height: 1.4;
 }
 .container{
-    max-width: 1300px;
+    max-width: 1298px;
     margin: 0 auto;
 }
 .container__header{
@@ -71,33 +72,30 @@ button{
     font-weight: bold;
     margin: 0px;
 }
-.container__seance{
+.title{
     margin-top: 150px;
     display: flex;
-    flex-direction: column;
+    gap: 45px;
     align-items: center;
     justify-content: center;
     font-family: "El Messiri";
     font-weight: bold;
 }
-.seance__title{
-    display: flex;
-    justify-content: center;
-    gap: 45px;
-    align-items: center;
-    margin-bottom: 100px;
-}
-.container__seance h2{
-    font-size: 42px;
+.title h2{
+    font-size: 45px;
 }
 .seance__box{
+    font-weight: bold;
     display: grid;
+    margin-top: 100px;
     gap: 24px;
     grid-template-columns: repeat(3, 416px);
     grid-template-rows: repeat(2,258px)
 }
 .box_item{
-    vertical-align: bottom;
+    font-size: 24px;
+    display: flex;
+    align-items: end;
 }
 .box__item_1{
     background-image: url("img/seans_big.png");
@@ -105,15 +103,279 @@ button{
     border-radius: 10px;
     border-bottom: 7px #018ABE solid;
     padding: 50px;
+    
 }
 .box__item_2{
     background-image: url("img/seans_small.png");
+    padding: 0px 20px 30px 40px;
 }
 .text__subtitle{
     display: flex;
     align-items: center;
     gap: 66px;
 }
+.reviews__list_reviews{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.list_reviews__main_review{
+    width: 636px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #018ABE;
+}
+.main_review__title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.main_review__text{
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0px 60px;
+    margin-top: 20px;
+}
+.list_reviews__review{
+    color: #737e83;
+    width: 500px;
+    height: 276px;
+    border-radius: 10px;
+    background-color: #0e4f69;
+}
+.review__title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+.review__text{
+    font-size: 10px;
+    font-weight: lighter;
+    margin: 0px 45px;
+    margin-top: 15px;
+}
+.reviews__controls{
+    margin: auto;
+    margin-top: 60px;
+    width: 124px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.controls__Rectangle{
+    width: 16px;
+    height: 16px;
+}
+.features__block{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.block__content{
+    display: flex;
+    align-items: center;
+    gap: 84px;
+}
+.content__info{
+    width: 466px;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+.info__title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.info__text{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.session_cost__content{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 134px;
 
-
-
+}
+.content__list_price{
+    width: 416px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.list_price__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item__text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.content__image{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    font: "El Messiri";
+    font-size: 21px;
+    font-weight: bold;
+}
+.container__contacts{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__locations{
+    height: 604px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.locations__location{
+    margin: 0px;
+    border-radius: 10px;
+    width: 392px;
+    height: 290px;
+    background-color: #018ABE;
+}
+.location__title{
+    font: "El Messiri";
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 35px;
+}
+.location__content{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.content__item{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.location__button{
+    margin-top: 15px;
+    margin-left: 45px;
+    color: #018ABE;
+    background-color: #fff;
+}
+.footer__container{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__sub_container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container__top_line{
+    margin-top: 30px;
+}
+.news__title{
+    margin-top: 60px;
+}
+.news__box_news{
+    font: "El Messiri";
+    font-size: 21px;
+    font-weight: bold;
+    display: grid;
+    margin-top: 60px;
+    gap: 24px;
+    grid-template-columns: repeat(3, 416px);
+    grid-template-rows: repeat(3,258px)
+}
+.box_news__item{
+    padding: 30px 0px 30px 36px;
+    background-image: url(img/seans_small.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item__data{
+    font-size: 14px;
+    background-color: #018ABE;
+    border-radius: 5px;
+    padding: 5px 17px 5px 17px;
+    margin-right: 285px;
+}
+.session__page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page__content{
+    width: 526px;
+    height: 501px;
+}
+.content__title{
+    font: "El Messiri";
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+.content__data{
+    margin-right: 430px;
+}
+.footer_session{
+    margin-top: 161px;
+}
+.container__session{
+    margin-top: 0px;
+}
+.content__text{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.blog__title{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.session__title{
+    margin-top: 60px;
+}
+.blog__list_blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.list_blogs__page{
+    display: flex;
+    justify-content: space-between;
+    border: 2px #018ABE solid;
+    padding: 50px 60px 50px 60px;
+    border-radius: 20px;
+}
+.blog__image{
+    width: 564px;
+    height: 430px;
+}
+.content__button{
+    margin-top: 40px;
+}
+.content__blog{
+    height: 391px;
+}
+.text__nav_button{
+    color: #fff;
+    text-decoration: none;
+}
