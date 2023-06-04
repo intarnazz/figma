@@ -3,6 +3,9 @@ body{
     color: #ffffff;
     line-height: 1.4;
 }
+.header{
+    margin-top: 30px;
+}
 .container{
     max-width: 1298px;
     margin: 0px auto;
@@ -72,7 +75,7 @@ body{
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(3, 416px);
-    grid-template-rows: repeat(3,258px);
+    grid-template-rows: repeat(2,258px);
 }
 .news__item{
     padding: 30px 0px 30px 36px;
@@ -100,6 +103,6 @@ body{
     justify-content: space-between;
 }
 .footer{
-    margin-top: 0px;
-    margin-bottom: 200px;
+    margin-top: 120px;
+    margin-bottom: 30px;
 }
