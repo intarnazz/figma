@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+
+:root{
+    --bgcolor: #162831;
+    --blue: #018ABE;
+    --white: #fff;
+}
+
+body{
+    font-family: "Proxima Nova", light;
+    font-size: 14px;
+    background-color: var(--bgcolor);
+    color: var(--white);
+}
