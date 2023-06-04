@@ -131,3 +131,30 @@ body{
     font-family:"Proxima Nova";
     font-weight: 100;
 }
+.blog__title{
+    margin: 60px;
+}
+.blog__list-blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.blog__item{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px 50px 60px;
+    border: 2px #018ABE solid;
+    border-radius: 20px;
+}
+.blog__content{
+    width: 564px;
+}
+.blog__sub-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'El Messiri', bold;
+    font-size: 24px;
+}
+.blog__button{
+    margin-top: 40px;
+}
