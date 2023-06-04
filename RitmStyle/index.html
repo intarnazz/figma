@@ -4,80 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <title>RitmStyle</title>
 </head>
 <body>
-    <div class="container">
-        <header class="container__header">
-            <a href="index.html" class="text__nav_button">
-                <div class="header__logo">
-                    <img src="img/w.svg" alt="W" class="logo__img">
-                </div>
-            </a>
-            <nav class="header_nav">
-                <ul class="nav__text">
-                    <li> <a href="index.html" class="text__nav_button" target="_blank">Главная</a></li>
-                    <li> <a href="session.html" class="text__nav_button" target="_blank">Сеансы</a></li>
-                    <li> <a href="_#_" class="text__nav_button" target="_blank">Отзывы</a></li>
-                    <li> <a href="_#_" class="text__nav_button" target="_blank">Контакты</a></li>
-                    <li> <a href="news.html" class="text__nav_button" target="_blank">Новости</a></li>
-                    <li> <a href="_#_" class="text__nav_button" target="_blank">Обо мне</a></li>
-                    <li> <a href="blog.html" class="text__nav_button" target="_blank">Блог</a></li>
+    <header class="header">
+        <div class="header__container container">
+            <div class="logo">
+                <a href="index.html" class="logo__link">
+                    <div class="logo__image">
+                        <img src="img/w.svg" alt="W" class="logo__sub-image">
+                    </div>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__text"> <a href="index.html" class="nav__link" target="_blank">Главная</a></li>
+                    <li class="nav__text"> <a href="session.html" class="nav__link" target="_blank">Сеансы</a></li>
+                    <li class="nav__text"> <a href="_#_" class="nav__link" target="_blank">Отзывы</a></li>
+                    <li class="nav__text"> <a href="_#_" class="nav__link" target="_blank">Контакты</a></li>
+                    <li class="nav__text"> <a href="news.html" class="nav__link" target="_blank">Новости</a></li>
+                    <li class="nav__text"> <a href="_#_" class="nav__link" target="_blank">Обо мне</a></li>
+                    <li class="nav__text"> <a href="blog.html" class="nav__link" target="_blank">Блог</a></li>
                 </ul>
             </nav>
             <button class="button">
                 Записаться на сеанс
             </button>
-        </header>
-    </div>
+        </div>
+    </header>
     <main>
-        <div class="main__container container">
-            <section class="container__opening_image">
-                <ul class="opening_image__title">
-                    <li class="title__text">
-                        <div class="text__subtitle">
-                            <img src="img/white_left.svg" alt="left">
-                            Укрепление здоровья
-                            <img src="img/white_right.svg" alt="right">
-                        </div>
+        <div class="container">
+            <section class="opening">
+                <ul class="opening__title">
+                    <li class="opening__sub-title">
+                        <img src="img/white_left.svg" alt="left">
+                        Укрепление здоровья
+                        <img src="img/white_right.svg" alt="right">
                     </li>
-                    <li class="title__text"><h2 class="text__opening">Акватерапия<br>RitmStyle</h2></li>
+                    <li><h2 class="opening__title-text">Акватерапия<br>RitmStyle</h2></li>
                 </ul>
             </section>
-            <section class="container__seance">
-                <div class="seance title">
+            <section class="seance">
+                <div class="seance__title title">
                     <img src="img/left.svg" alt="left">
-                    <h2>Сеансы RitmStyle</h2>
+                    <h2 class="title__text">Сеансы RitmStyle</h2>
                     <img src="img/right.svg" alt="right">
                 </div>
-                <div class="seance__box">
-                    <div class="box__item_1 box_item">
+                <div class="box">
+                    <div class="box__item_1 box__item">
                         Стандартный RitmStyle
                     </div>
-                    <div class="box__item_2 box_item">
+                    <div class="box__item_2 box__item">
                         RitmStyle для пар
                     </div>
-                    <div class="box__item_2 box_item">
+                    <div class="box__item_2 box__item">
                         RitmStyle с полным погружением под воду
                     </div>
-                    <div class="box__item_2 box_item">
+                    <div class="box__item_2 box__item">
                         RitmStyle для беременных
                     </div>
-                    <div class="box__item_2 box_item">
+                    <div class="box__item_2 box__item">
                         RitmStyle + красочная подводная фотосессия
                     </div>
                 </div>
             </section>
         </div>
-        <section class="container__reviews">
-            <div class="reviews title">
+        <section class="reviews">
+            <div class="reviews__title title">
                 <img src="img/left.svg" alt="left">
-                <h2>Отзывы</h2>
+                <h2 class="title__text">Отзывы</h2>
                 <img src="img/right.svg" alt="right">
             </div>
-            <div class="reviews__list_reviews">
-                <div class="list_reviews__review">
+            <div class="reviews__list">
+                <div class="review">
                     <div class="review__title">
                         Александра Дмитриевна
                     </div>
@@ -105,11 +105,11 @@
                         condimentum rutrum sed in odio
                     </div>
                 </div>
-                <div class="list_reviews__main_review">
-                    <div class="main_review__title">
+                <div class="review__main">
+                    <div class="review__title_main">
                         Кира Иванова
                     </div>
-                    <div class="main_review__text">
+                    <div class="review__text_main">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel 
                         nibh id ipsum aliquam imperdiet. Donec varius tempor nibh vitae tempus. 
                         Integer quis nunc vitae ex tempor pharetra. Donec vestibulum 
@@ -129,7 +129,7 @@
                         condimentum rutrum sed in odio
                     </div>
                 </div>
-                <div class="list_reviews__review">
+                <div class="review">
                     <div class="review__title">
                         Александра Дмитриевна
                     </div>
@@ -165,20 +165,20 @@
                 <img src="img/Rectangle-1.svg" alt="Rectangle" class="controls__Rectangle">
             </div>
         </section>
-        <div class="main__container container">
-            <section class="container__features">
-                <div class="seance title">
+        <div class="container">
+            <section class="features">
+                <div class="features__title title">
                     <img src="img/left.svg" alt="left">
-                    <h2>Об RitmStyle</h2>
+                    <h2 class="title__text">Об RitmStyle</h2>
                     <img src="img/right.svg" alt="right">
                 </div>
                 <div class="features__block">
-                    <div class="block__content">
-                        <div class="content__info">
-                            <div class="info__title">
+                    <div class="features__content">
+                        <div class="features__info">
+                            <div class="features__title">
                                 RitmStyle массаж
                             </div>
-                            <div class="info__text">
+                            <div class="features__text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                 Donec in purus, sed tellus eget mattis nibh quam. Eu ornare 
                                 nunc, id est. Erat consectetur etiam a sit diam in imperdiet 
@@ -191,13 +191,13 @@
                         </div>
                         <img src="img/feature.png" alt="feature" class="block_image">
                     </div>
-                    <div class="block__content">
+                    <div class="features__content">
                         <img src="img/feature.png" alt="feature" class="block_image">
-                        <div class="content__info">
+                        <div class="features__info">
                             <div class="info__title">
                                 RitmStyle гидротерапия
                             </div>
-                            <div class="info__text">
+                            <div class="features__text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                 Donec in purus, sed tellus eget mattis nibh quam. Eu ornare 
                                 nunc, id est. Erat consectetur etiam a sit diam in imperdiet 
@@ -211,112 +211,112 @@
                     </div>
                 </div>
             </section>
-            <section class="container__session_cost">
-                <div class="session_cost title">
+            <section class="session-cost">
+                <div class="session-cost__title title">
                     <img src="img/left.svg" alt="left">
-                    <h2>Стоимость сеансов</h2>
+                    <h2 class="title__text">Стоимость сеансов</h2>
                     <img src="img/right.svg" alt="right">
                 </div>
-                <div class="session_cost__content">
-                    <ul class="content__list_price">
-                        <li class="list_price__item">
-                            <div class="item__text">
+                <div class="session-cost__content">
+                    <ul class="session-cost__list-price">
+                        <li class="session-cost__item">
+                            <div class="session-cost__text">
                                 <img src="img/list-item.svg" alt="item">
                                 RitmStyle с погружением
                             </div>
-                            <div class="item__price">
+                            <div class="session-cost__price">
                                 1000p.
                             </div>
                         </li>
-                        <li class="list_price__item">
+                        <li class="session-cost__item">
                             <div class="item__text">
                                 <img src="img/list-item.svg" alt="item">
                                 Абонемент на RitmStyle
                             </div>
-                            <div class="item__price">
+                            <div class="session-cost__price">
                                 5500p.
                             </div>
                         </li>
-                        <li class="list_price__item">
+                        <li class="session-cost__item">
                             <div class="item__text">
                                 <img src="img/list-item.svg" alt="item">
                                 RitmStyle для пар
                             </div>
-                            <div class="item__price">
+                            <div class="session-cost__price">
                                 6000p.
                             </div>
                         </li>
-                        <li class="list_price__item">
+                        <li class="session-cost__item">
                             <div class="item__text">
                                 <img src="img/list-item.svg" alt="item">
                                 RitmStyle для беременных
                             </div>
-                            <div class="item__price">
+                            <div class="session-cost__price">
                                 13500p.
                             </div>
                         </li>
-                        <li class="list_price__item">
+                        <li class="session-cost__item">
                             <div class="item__text">
                                 <img src="img/list-item.svg" alt="item">
                                 RitmStyle + фотосессия
                             </div>
-                            <div class="item__price">
+                            <div class="session-cost__price">
                                 11500p.
                             </div>
                         </li>
                     </ul>
-                    <div class="content__image">
+                    <div class="session-cost__image">
                         <img src="img/session_cost.png" alt="session_cost">
                         Подарочный сертификат
                     </div>
                 </div>
             </section>
-            <div class="container__contacts">
+            <div class="contacts">
                 <div class="contacts__map">
                     <img src="img/map.png" alt="map">
                 </div>
                 <div class="contacts__locations">
-                    <div class="locations__location">
-                        <div class="location__title">
+                    <div class="contacts__location">
+                        <div class="contacts__title">
                             Бассейн WorkClass
                         </div>
-                        <ul class="location__content">
-                            <li class="content__item">
+                        <ul class="contacts__content">
+                            <li class="contacts__item">
                                 <img src="img/icon-1.svg" alt="icon">
                                 Невский 140
                             </li>
-                            <li class="content__item">
+                            <li class="contacts__item">
                                 <img src="img/icon-2.svg" alt="icon">
                                 м. Спасская
                             </li>
-                            <li class="content__item">
+                            <li class="contacts__item">
                                 <img src="img/icon-3.svg" alt="icon">
                                 Запись по договоренности
                             </li>
                         </ul>
-                        <button class="location__button button">
+                        <button class="contacts__button button">
                             Записаться на сеанс
                         </button>
                     </div>
-                    <div class="locations__location">
-                        <div class="location__title">
+                    <div class="contacts__location">
+                        <div class="contacts__title">
                             Бассейн "На Гороховой"
                         </div>
-                        <ul class="location__content">
-                            <li class="content__item">
+                        <ul class="contacts__content">
+                            <li class="contacts__item">
                                 <img src="img/icon-1.svg" alt="icon">
                                 3-й проезд Иванова
                             </li>
-                            <li class="content__item">
+                            <li class="contacts__item">
                                 <img src="img/icon-2.svg" alt="icon">
                                 м. Крестовский остров
                             </li>
-                            <li class="content__item">
+                            <li class="contacts__item">
                                 <img src="img/icon-3.svg" alt="icon">
                                 Запись по договоренности
                             </li>
                         </ul>
-                        <button class="location__button button">
+                        <button class="contacts__button button">
                             Записаться на сеанс
                         </button>
                     </div>
@@ -329,7 +329,7 @@
             <div class="container__copyright">
                 © 2018-2022 RitmStyle
             </div>
-            <div class="container__meta">
+            <div class="container__text">
                 Сделано d-e-n.info
             </div>
         </div>
