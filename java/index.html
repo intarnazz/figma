@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strick"
+        let message;
+        message = "hello";
+        // коментарий
+        alert( message );
+        alert( "world!" );
+        /*многострочный
+        комментарий*/
+        alert( `'f' строка, переменная - ${1 + 1}` );
+        let age = prompt('Сколько тебе лет?', 100); // '100' указыать не обязательно
+        /*
+        let age = prompt('Сколько тебе лет?', '');
+        
+        - лучше указыать так ↑↑↑
+        */
+        alert(`Тебе ${age} лет!`);
+
+        let isBoss = confirm("Ты здесь главный?");
+        alert( isBoss ); // true, если нажата OK
+
+        let x = 1;
+        x = -x;
+        alert( x ); // -1, применили унарный минус
+
+        alert( '1' + 2 ); // "12"
+
+        alert(2 + 2 + '2' ); // будет "41", а не "221"
+
+        alert( '6' / '2' ); // 3, оба операнда приводятся к числам
+
+        // Преобразует не числа в числа
+        alert( +true ); // 1
+        alert( +"" );   // 0
+
+        alert( typeof( "232" ) ); // string
+        alert( typeof( +"232" ) ); // number
+
+        let apples = "2";
+        let oranges = "3";
+        // оба операнда предварительно преобразованы в числа
+        alert( +apples + +oranges ); // 5
+
+        let a, b;
+
+        let c = 3 - (a = b + 1);
+        alert( a ); // 3
+        alert( c ); // 0
+
+        a = b = c = 2 + 2;
+        alert( a ); // 4
+        alert( b ); // 4
+        alert( c ); // 4
+
+        let counter = 2;
+        counter++;        // работает как counter = counter + 1, просто запись короче
+        alert( counter ); // 3
+
+        counter = 1;
+        a = ++counter; // (*)
+        alert(a); // 2
+
+        counter = 1;
+        a = counter++; // (*) меняем ++counter на counter++
+        alert(a); // 1
+
+        counter = 0;
+        counter++;
+        ++counter;
+        alert( counter ); // 2, обе строки сделали одно и то же
+
+        alert( '2' > 1 ); // true, строка '2' становится числом 2
+        alert( '01' == 1 ); // true, строка '01' становится числом 1
+        alert( true == 1 ); // true
+        alert( false == 0 ); // true
+
+        alert( 0 === false ); // false, так как сравниваются разные типы
+        alert( 1 === true ); // false, так как сравниваются разные типы
+
+        alert( null > 0 );  // (1) false
+        alert( null == 0 ); // (2) false
+        alert( null >= 0 ); // (3) true
+    </script>
+</body>
+</html>
