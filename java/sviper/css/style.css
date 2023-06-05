@@ -1,0 +1,5 @@
+.parallax-slider__bg{
+    background-image: url(../img/tree.jpg);
+    width: 200%;
+    height: 100px;
+}
