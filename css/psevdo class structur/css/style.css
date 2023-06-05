@@ -1,0 +1,27 @@
+/* article :first-child{
+    color: #ff0000;
+} */
+/* article h1:first-child{
+    color: #ff0000;
+} */
+/* article p:first-child{
+    color: #ff0000;
+} */
+/* article :last-child{
+    color: #ff0000;
+} */
+/* article p:last-child{
+    color: #ff0000;
+} */
+/* article h1:last-child{
+    color: #ff0000;
+} */
+/* article :only-child{
+    color: #ff0000;
+} */
+article h1:only-child{
+    color: #ff0000;
+}
+li:first-child{
+    background-color: #adff2f;
+}
