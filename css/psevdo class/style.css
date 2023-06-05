@@ -1,0 +1,36 @@
+h1.title{
+    border: 1px #006400 solid;
+}
+code{
+    background: #ffff00;
+}
+a:link{
+    color: #ff0000;
+}
+a:visited{
+    color: #00b800;
+}
+.userActions:active{
+    background: #000000;
+}
+a:active{
+    background: #000000;
+    color: #fff;
+}
+.userAct:focus{
+    background: #ffff00;
+    border: 5px #ff0000 solid;
+}
+.link:link{
+    color: #FF1493;
+}
+.link:visited{
+    color: #808080;
+}
+.link:hover{
+    background-color:  #e63f52;
+    color: #fff;
+}
+.link:active{
+    color: #f1616e;
+}
