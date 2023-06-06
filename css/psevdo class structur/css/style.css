@@ -45,3 +45,9 @@ tr:nth-child(1){
 tr:nth-child(2n){
     background-color: #98fb98;
 }
+b:first-child{
+    color: #ff0000;
+}
+tr:nth-child(even){
+    background-color: #ececec;
+}
