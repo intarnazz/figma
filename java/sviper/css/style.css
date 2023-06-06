@@ -1,5 +1,21 @@
+body{
+    background-color: #292929;
+}
 .parallax-slider__bg{
-    background-image: url(../img/tree.jpg);
+    background-image: url(../img/forest2.jpg);
+    filter: contrast(65%);
     width: 200%;
-    height: 100px;
+    height: 300px;
+    margin-bottom: -200px;
+}
+.parallax-slider__title {
+    margin-left: 60px;
+    color: #fff;
+    margin-right: 20px;
+}
+.parallax-slider__text{
+    color: #fff;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    margin-right: 20px;
 }
