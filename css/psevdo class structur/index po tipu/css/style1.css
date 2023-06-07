@@ -1,0 +1,6 @@
+section :only-child{
+    background-color: #008000;
+}
+section h1:only-of-type{
+    background-color: #d0ff00;
+}
