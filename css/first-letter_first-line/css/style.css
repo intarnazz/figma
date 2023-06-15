@@ -1,0 +1,24 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.first-letter p::first-letter{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ff0000;
+    font-size: 2em;
+}
+.first-line p::first-line{
+    font-weight: bold;
+    font-style: italic;
+    color: #000080;
+}
+.alpha::first-letter,
+.bravo::first-line{
+    color: #ff7b29;
+    font-size: 2em;
+}
+.first::first-letter{
+    font-size: 3em;
+    color: #008000;
+    border: 5px #808000 solid;
+    font-style: inset;
+}
