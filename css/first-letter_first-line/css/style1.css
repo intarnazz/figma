@@ -1,0 +1,28 @@
+body{
+    font-size: 26px;
+}
+p.new::after{
+    content: "- новый контент";
+    color: #ff0000;
+    font-style: italic;
+    background-color: #dc0;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.exercise2 a::after{
+    color: #9799a7;
+    content: " (" attr(href) ")";
+    font-size: 0.7em;
+}
+.exercise3 p:last-of-type::after{
+    content: "🟥";
+    padding-left: 10px;
+}
+.exercise4__flower{
+    list-style-type: none;
+}
+.exercise4__flower li::before{
+    content: "✿";
+    padding-right: 7px;
+    color: #ff0000;
+}
