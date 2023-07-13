@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Логические операторы</title>
+</head>
+<body>
+    <script>
+        if(0){
+            // result = a || b;
+            alert( true || true );   // true
+            alert( false || true );  // true
+            alert( true || false );  // true
+            alert(0 || 7 ); // магия java: возвращает левое значение, если левое значение == 0, то вернёт правое 
+            alert( false || false ); // false
+        }
+        if(0){
+            alert( 2-2 || false || -33 || 0)
+        }
+        if(0){
+            let currentUser = null;
+            let defaultUser = "John";
+
+            let name = currentUser || defaultUser || "unnamed";
+            alert( name ); // выбирается "John" – первое истинное значение
+        }
+        // result = a && b;
+        if(0){
+            alert( true && true );   // true
+            alert( false && true );  // false
+            alert( true && false );  // false
+            alert( false && false ); // false
+        }
+        if(0){
+            alert( true && 0 && true && false);
+        }
+        if(0){
+            // Если первый операнд истинный,
+            // И возвращает второй:
+            alert( 1 && 0 ); // 0
+            alert( 1 && 5 ); // 5
+            alert( 1 && 5 && 0 ); // 0
+            // возвращяет первое ложное значение
+            // и последнее истинное, если нет ложных
+        }
+        if(0){
+            let x = 5;
+
+            (x = 5) && alert( 'x = 5' ); // заменяет собой блок "if"
+        }
+        // result = !value; (НЕ)
+        if(0){
+            alert( !true ); // false
+            alert((!0) + 0 + " - это единитца"); // true  
+
+            alert( typeof((!0) + 0 + " - это единитца")); // true  
+            // "+ 0" сменил тип данных
+            alert(!!12) // преобразование к логическому типу
+            alert(!!0)  //
+        }
+        if(1){
+            alert( alert('магия') || 'java' || alert(3) );
+            alert( alert(1) && alert(2) );
+            //Вызов alert не возвращает значения, или, иначе говоря, возвращает undefined. Поэтому до правого alert дело не дойдёт, вычисления закончатся на левом.
+        }
+    </script>
+</body>
+</html>

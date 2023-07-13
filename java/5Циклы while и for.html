@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Циклы while и for</title>
+</head>
+<body>
+    <script>
+        if(0){
+            let i = 3;
+            while (i) { // когда i будет равно 0, условие станет ложным, и цикл остановится
+                alert( i );
+                i--;
+            }
+
+            do {
+            // тело цикла
+            } while (condition);
+        }
+        if(0){
+            for (let i = 0; i < 3; i++) { // выведет 0, затем 1, затем 2
+            alert(i);
+            }
+        }
+        if(0){
+            for (let i = 0; i < 3; i++) {
+            alert(i); // 0, 1, 2
+            }
+            alert(i); // ошибка, нет такой переменной
+        }
+        if(0){
+            let i = 0;
+            for (i = 0; i < 3; i++) { // используем существующую переменную
+            alert(i); // 0, 1, 2
+            }
+            alert(i); // 3, переменная доступна, т.к. была объявлена снаружи цикла
+        }
+        if(0){
+            let i = 0; // мы уже имеем объявленную i с присвоенным значением
+            for (; i < 3; i++) { // нет необходимости в "начале"
+                alert( i ); // 0, 1, 2
+            }
+        }
+        if(0){
+            let i = 0;
+            for (; i < 3;) { // можно убрать и длинну шага
+            alert( i++ );
+            }
+        }
+        if(0){
+            for (;;) {
+            // будет выполняться вечно
+            }
+        }
+        if(0){
+            for (;;){
+                //прерывание цикла
+                if (1) break;
+            }
+        }
+        if(0){
+            cycle: for (;;){
+                for (;;){
+                    break cycle; // имя цикла который нужно остановить
+                }
+            }
+            alert('Все циклы остановленны')
+        }
+        // for (let i = 0; i < 5; ++i) alert( i );
+        if(0){
+            let num
+            while(1){
+            num = prompt()
+                if( num > 100 ){
+                    break
+                }
+                if ( num == null ){
+                    break
+                }
+            }
+        }
+        let num = 2
+        while( num !=10 ){
+            for( let i = num - 1 ;; i-- ){
+                if ( i == 1 ){
+                    alert(num)
+                    break
+                }
+                if( num % i == 0 ){
+                    break
+                }
+            }
+            num++
+        }
+    </script>
+</body>
+</html>
