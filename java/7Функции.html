@@ -7,7 +7,32 @@
 </head>
 <body>
     <script>
-        
+        function showMessage( text = 'текст не добавлен' ) {
+        alert( text );
+        }
+        // showMessage( 'Всем привет!' )
+
+        function sum ( a, b ){
+            return a + b;
+        }
+        // alert( sum( 1, 5 ) )
+
+        /*
+        Функции, начинающиеся с…
+
+        "get…" – возвращают значение,
+        "calc…" – что-то вычисляют,
+        "create…" – что-то создают,
+        "check…" – что-то проверяют и возвращают логическое значение, и т.д.
+        */
+
+        function pow( x, y ){
+            for (let i = 1 ; i != y ; i++ ){
+                x = x * y
+            }
+            return x
+        }
+        alert( pow( 3, 3 ) )
     </script>
 </body>
 </html>
