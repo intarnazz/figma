@@ -7,7 +7,21 @@
 </head>
 <body>
     <script>
-        
+        /*
+        let sayHi = function() {
+        alert( "Привет" );
+        };
+        */
+
+        let sayHi = function() {
+            alert( "Привет" );
+            };
+
+            ask(
+            "Вы согласны?",
+            function() { alert("Вы согласились."); },  // анонимные функции без названия
+            function() { alert("Вы отменили выполнение."); }
+            );
     </script>
 </body>
 </html>
